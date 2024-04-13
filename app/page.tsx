@@ -1,3 +1,5 @@
+import FAQS from '@/components/FAQS';
+import FAQ from '@/components/FAQS';
 import Features from '@/components/Features';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
@@ -16,6 +18,7 @@ export default function Home() {
 			<Features />
 			<Pricing />
 			<Quote />
+			<FAQS />
 		</>
 	);
 }
