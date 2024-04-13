@@ -13,7 +13,7 @@ export default function Paragraph({ value }: { value: string }) {
 
 	return (
 		<p
-			className='text-4xl text-foreground font-medium leading-relaxed p-10 font-logo flex flex-wrap '
+			className='text-2xl p-4 sm:text-3xl md:text-4xl md:leading-relaxed text-foreground font-medium  md:p-10 font-logo flex flex-wrap '
 			ref={el}
 		>
 			{words.map((w, i) => {

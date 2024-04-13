@@ -1,9 +1,13 @@
 import type { Metadata } from 'next';
-import { Inter, Artifika } from 'next/font/google';
+import { Inter, Artifika, Poppins } from 'next/font/google';
 import './globals.css';
 import { cn } from '@/lib/utils';
 
-const inter = Inter({ subsets: ['latin'] });
+// const inter = Inter({ subsets: ['latin'] });
+const inter = Poppins({
+	subsets: ['latin'],
+	weight: ['300', '400', '500', '600'],
+});
 const artifika = Artifika({
 	subsets: ['latin'],
 	weight: '400',

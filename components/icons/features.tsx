@@ -15,7 +15,7 @@ export const Icons = {
 			<path
 				d='M19.0621 20.2183C17.1077 22.1726 12.1028 20.3363 7.88327 16.1167C3.66372 11.8972 1.82739 6.89227 3.7817 4.93795L5.06847 3.65118C5.9568 2.76286 7.42054 2.78634 8.33784 3.70363L10.3309 5.69672C11.2482 6.61401 11.2717 8.07776 10.3834 8.96609L10.107 9.24247C9.62737 9.72209 9.58045 10.4958 10.0261 11.0359C10.456 11.5568 10.9194 12.0756 11.4219 12.5781C11.9244 13.0806 12.4432 13.544 12.9641 13.9739C13.5042 14.4196 14.2779 14.3726 14.7575 13.893L15.0339 13.6166C15.9222 12.7283 17.386 12.7518 18.3033 13.6691L20.2964 15.6622C21.2137 16.5795 21.2371 18.0432 20.3488 18.9315L19.0621 20.2183Z'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
+				strokeWidth='1.5'
 			/>
 		</svg>
 	),
@@ -31,7 +31,7 @@ export const Icons = {
 			<path
 				d='M17.7189 9.52728L19.8442 10.677L20.2891 10.9269C21.237 11.4595 21.237 12.8325 20.2891 13.365L14.2525 16.7566C12.8524 17.5432 11.1476 17.5432 9.74754 16.7566L3.71092 13.365C2.76302 12.8325 2.76303 11.4595 3.71093 10.9269L4.15585 10.677L6.16334 9.52728M18.1811 14.6461L20.1129 15.6185C21.1092 16.1201 21.1412 17.5398 20.1685 18.0862L14.2525 21.4101C12.8524 22.1966 11.1476 22.1966 9.74754 21.4101L3.9178 18.1347C2.9284 17.5789 2.98291 16.1278 4.0112 15.6487L6.16334 14.6461M14.2525 11.8112L20.2891 8.41961C21.237 7.88705 21.237 6.51405 20.2891 5.98149L14.2525 2.58993C12.8524 1.80336 11.1476 1.80336 9.74754 2.58993L3.71093 5.98149C2.76303 6.51405 2.76302 7.88705 3.71092 8.41961L9.74754 11.8112C11.1476 12.5977 12.8524 12.5977 14.2525 11.8112Z'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
+				strokeWidth='1.5'
 			/>
 		</svg>
 	),
@@ -51,7 +51,7 @@ export const Icons = {
 				height='7'
 				rx='2.5'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
+				strokeWidth='1.5'
 			/>
 			<rect
 				x='3.5'
@@ -60,7 +60,7 @@ export const Icons = {
 				height='7'
 				rx='2.5'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
+				strokeWidth='1.5'
 			/>
 			<rect
 				x='13.5'
@@ -69,7 +69,7 @@ export const Icons = {
 				height='7'
 				rx='2.5'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
+				strokeWidth='1.5'
 			/>
 			<rect
 				x='13.5'
@@ -78,7 +78,7 @@ export const Icons = {
 				height='7'
 				rx='2.5'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
+				strokeWidth='1.5'
 			/>
 		</svg>
 	),
@@ -97,36 +97,36 @@ export const Icons = {
 				r='3.40426'
 				transform='matrix(-1 0 0 1 15.617 5)'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
+				strokeWidth='1.5'
 			/>
 			<path
 				d='M6.25532 16.8594C6.25532 16.1272 6.71562 15.474 7.40518 15.2277V15.2277C10.5141 14.1174 13.9115 14.1174 17.0203 15.2277V15.2277C17.7099 15.474 18.1702 16.1272 18.1702 16.8594V17.979C18.1702 18.9896 17.2751 19.7659 16.2747 19.6229L15.9412 19.5753C13.4681 19.222 10.9574 19.222 8.48437 19.5753L8.15081 19.6229C7.15039 19.7659 6.25532 18.9896 6.25532 17.979V16.8594Z'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
+				strokeWidth='1.5'
 			/>
 			<path
 				d='M17.3192 11.9026C18.7964 11.9026 19.9939 10.7051 19.9939 9.22787C19.9939 7.75064 18.7964 6.5531 17.3192 6.5531'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
-				stroke-linecap='round'
+				strokeWidth='1.5'
+				strokeLinecap='round'
 			/>
 			<path
 				d='M20.2486 18.0051L20.5107 18.0425C21.2967 18.1548 22 17.5448 22 16.7508V15.8711C22 15.2958 21.6383 14.7826 21.0965 14.5891C20.5561 14.3961 20.0045 14.2458 19.4468 14.1382'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
-				stroke-linecap='round'
+				strokeWidth='1.5'
+				strokeLinecap='round'
 			/>
 			<path
 				d='M6.68085 11.9026C5.20362 11.9026 4.00608 10.7051 4.00608 9.22787C4.00608 7.75064 5.20362 6.5531 6.68085 6.5531'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
-				stroke-linecap='round'
+				strokeWidth='1.5'
+				strokeLinecap='round'
 			/>
 			<path
 				d='M3.7514 18.0051L3.48932 18.0425C2.70327 18.1548 2 17.5448 2 16.7508V15.8711C2 15.2958 2.36167 14.7826 2.90347 14.5891C3.44392 14.3961 3.99546 14.2458 4.55319 14.1382'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
-				stroke-linecap='round'
+				strokeWidth='1.5'
+				strokeLinecap='round'
 			/>
 		</svg>
 	),
@@ -146,28 +146,28 @@ export const Icons = {
 				height='20'
 				rx='5'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
+				strokeWidth='1.5'
 			/>
 			<path
 				d='M8 17L8 14'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
-				stroke-linecap='round'
-				stroke-linejoin='round'
+				strokeWidth='1.5'
+				strokeLinecap='round'
+				strokeLinejoin='round'
 			/>
 			<path
 				d='M12 17L12 7'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
-				stroke-linecap='round'
-				stroke-linejoin='round'
+				strokeWidth='1.5'
+				strokeLinecap='round'
+				strokeLinejoin='round'
 			/>
 			<path
 				d='M16 17L16 10'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
-				stroke-linecap='round'
-				stroke-linejoin='round'
+				strokeWidth='1.5'
+				strokeLinecap='round'
+				strokeLinejoin='round'
 			/>
 		</svg>
 	),
@@ -202,19 +202,19 @@ export const Icons = {
 				height='12'
 				rx='4'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
+				strokeWidth='1.5'
 			/>
 			<path
 				d='M10 14.375L11.5 15.8125L14.5 12.9375'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
-				stroke-linecap='round'
-				stroke-linejoin='round'
+				strokeWidth='1.5'
+				strokeLinecap='round'
+				strokeLinejoin='round'
 			/>
 			<path
 				d='M16 9V7C16 4.79086 14.2091 3 12 3V3C9.79086 3 8 4.79086 8 7L8 9'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
+				strokeWidth='1.5'
 			/>
 		</svg>
 	),
@@ -230,24 +230,24 @@ export const Icons = {
 			<path
 				d='M2.00002 8.42871C2.00002 7.32414 2.89545 6.42871 4.00002 6.42871H20C21.1046 6.42871 22 7.32414 22 8.42871V10.0835C22 10.9667 21.4207 11.7453 20.5747 11.9991L13.1494 14.2267C12.3996 14.4516 11.6004 14.4516 10.8506 14.2267L3.42532 11.9991C2.57935 11.7453 2.00002 10.9667 2.00002 10.0835V8.42871Z'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
+				strokeWidth='1.5'
 			/>
 			<path
 				d='M12 11.5717L12 9.85742'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
-				stroke-linecap='round'
-				stroke-linejoin='round'
+				strokeWidth='1.5'
+				strokeLinecap='round'
+				strokeLinejoin='round'
 			/>
 			<path
 				d='M2.83339 11.5713L2.83339 16.9998C2.83339 19.2089 4.62425 20.9998 6.83339 20.9998H17.1667C19.3759 20.9998 21.1667 19.2089 21.1667 16.9998V11.5713'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
+				strokeWidth='1.5'
 			/>
 			<path
 				d='M15.3333 6.42855V5C15.3333 3.89543 14.4379 3 13.3333 3H10.6667C9.56209 3 8.66666 3.89543 8.66666 5L8.66666 6.42855'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
+				strokeWidth='1.5'
 			/>
 		</svg>
 	),
@@ -263,12 +263,12 @@ export const Icons = {
 			<path
 				d='M11 6C11 5.44772 10.5506 4.99356 10.0026 5.06242C8.77376 5.21683 7.59275 5.65513 6.55544 6.34824C5.23985 7.22729 4.21446 8.47672 3.60896 9.93853C3.00346 11.4003 2.84504 13.0089 3.15372 14.5607C3.4624 16.1126 4.22433 17.538 5.34315 18.6569C6.46197 19.7757 7.88743 20.5376 9.43928 20.8463C10.9911 21.155 12.5997 20.9965 14.0615 20.391C15.5233 19.7855 16.7727 18.7602 17.6518 17.4446C18.3449 16.4072 18.7832 15.2262 18.9376 13.9974C19.0064 13.4494 18.5523 13 18 13H12.5C11.6716 13 11 12.3284 11 11.5V6Z'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
+				strokeWidth='1.5'
 			/>
 			<path
 				d='M14 4C14 3.44772 14.45 2.99268 14.9966 3.07131C15.5731 3.15423 16.1383 3.30896 16.6788 3.53284C17.5281 3.88463 18.2997 4.40024 18.9497 5.05025C19.5998 5.70026 20.1154 6.47194 20.4672 7.32122C20.691 7.86171 20.8458 8.4269 20.9287 9.00339C21.0073 9.55005 20.5523 10 20 10L15 10C14.4477 10 14 9.55228 14 9V4Z'
 				stroke='#FAFAFA'
-				stroke-width='1.5'
+				strokeWidth='1.5'
 			/>
 		</svg>
 	),
