@@ -1,7 +1,7 @@
 export default function Hero() {
-	return ( 
+	return (
 		<main className='max-w-screen-main mx-auto text-center lg:w-4/5 space-y-6 py-24 relative'>
-			<div className='w-full h-auto md:h-full md:w-auto  aspect-square bg-radial absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10' />
+			<div className='w-full h-auto md:h-full md:w-auto aspect-square bg-radial-primary absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10' />
 
 			<div className='text-wrap sm:text-nowrap text-xs px-3 py-2 border border-primary rounded-full inline-flex items-center gap-2'>
 				<span className='w-2 h-2 relative flex'>
