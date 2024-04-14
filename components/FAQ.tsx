@@ -15,8 +15,8 @@ export default function FAQ({
 	return (
 		<div
 			className={cn(
-				'bg-gray border border-gray-2 py-4 px-5 duration-300 transition-all ease-in rounded-lg ',
-				open ? 'border-primary' : ''
+				'bg-gray border border-gray-2 py-4 px-5 duration-300 transition-all ease-in rounded-[30px] ',
+				open ? 'border-primary rounded-2xl' : ''
 			)}
 		>
 			<div
