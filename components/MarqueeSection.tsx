@@ -18,7 +18,7 @@ export default function MarqueeSection() {
 				gradientColor='#050505'
 				gradientWidth={isMobile ? 50 : 275}
 			>
-				<div className='flex '>
+				<div className='flex'>
 					{IconsArray.map((Icon, i) => (
 						<Icon key={i} className='mx-8' />
 					))}

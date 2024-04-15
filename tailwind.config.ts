@@ -98,8 +98,8 @@ const config = {
 				'radial-gradient(circle, rgba(250,250,250,0.15) 15%, rgba(250,250,250,0) 70%)',
 
 			'radial-primary':
-				'radial-gradient(circle, rgba(78,23,130,0.20) 15%, rgba(78,23,130,0) 70%)',
-			text: 'radial-gradient(circle, rgba(255,255,255,1) 15%, rgba(168,168,168,1) 70%)',
+				'radial-gradient(circle, rgba(78,23,130,0.3) 15%, rgba(78,23,130,0) 70%)',
+			text: 'radial-gradient(circle, rgba(255,255,255,1) 15%, rgba(180,180,180,1) 70%)',
 		},
 	},
 	plugins: [require('tailwindcss-animate')],

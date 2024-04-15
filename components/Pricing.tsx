@@ -1,3 +1,4 @@
+import { cn } from '@/lib/utils';
 import React from 'react';
 
 export default function Pricing() {
@@ -14,8 +15,13 @@ export default function Pricing() {
 				solutions.
 			</p>
 			<div className='grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-3 text-left '>
-				{pricing.map((p) => (
-					<div key={p.title} className=' md:px-5 py-4 md:py-8'>
+				{pricing.map((p, i) => (
+					<div
+						key={p.title}
+						className={cn(
+							' px-8 py-4 md:py-8 bg-gray/80 rounded-2xl border border-transparent hover:border-primary'
+						)}
+					>
 						<h3 className='text-[15px] font-semibold'>{p.title}</h3>
 						<p className='text-[13px] text-gray-5 mt-3'>
 							Perfect for startups and small businesses looking to establish an
@@ -57,7 +63,7 @@ export default function Pricing() {
 								</li>
 							))}
 						</ul>
-						<button className='text-sm py-2 px-6 bg-gray border border-gray-2 rounded-full mt-5 hover:border-gray-5 transition-all ease-in duration-300 hover:bg-gray/90'>
+						<button className='text-sm py-2 px-6 bg-gray border border-gray-2 rounded-full mt-5 hover:border-gray-5 transition-all ease-in duration-300 hover:bg-gray/90 '>
 							{p.button}
 						</button>
 					</div>

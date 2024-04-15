@@ -16,12 +16,12 @@ export default function Features() {
 				requirements, incorporating cutting-edge technology for outstanding
 				performance and results.
 			</p>
-			<div className='grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-3 text-left '>
-				{features.map((f) => (
+			<div className='grid grid-cols-1 gap-x-12 gap-y-14 sm:grid-cols-2 md:grid-cols-3 text-left '>
+				{features.slice(0, 6).map((f) => (
 					<div key={f.title} className='space-y-3'>
-						<f.icon />
+						<f.icon className='text-primary' />
 						<h3 className='font-medium text-foreground text-xl'>{f.title}</h3>
-						<p className='text-sm text-gray-6 '>{f.description}</p>
+						<p className='text-sm text-gray-6/95'>{f.description}</p>
 					</div>
 				))}
 			</div>
