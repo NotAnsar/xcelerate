@@ -99,6 +99,7 @@
 /* Handle */
 ::-webkit-scrollbar-thumb {
 	background: #4f4f4f;
+
 	border-radius: 5px;
 }
 
@@ -106,3 +107,6 @@
 ::-webkit-scrollbar-thumb:hover {
 	background: #444;
 }
+/* * {
+	border: red 1px solid !important;
+} */

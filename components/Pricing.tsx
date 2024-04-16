@@ -19,7 +19,7 @@ export default function Pricing() {
 					<div
 						key={p.title}
 						className={cn(
-							' px-8 py-4 md:py-8 bg-gray/80 rounded-2xl border border-transparent hover:border-primary'
+							'p-8 bg-gray/80 rounded-2xl border border-transparent hover:border-primary'
 						)}
 					>
 						<h3 className='text-[15px] font-semibold'>{p.title}</h3>
