@@ -23,7 +23,8 @@ export default function Hero() {
 				}}
 				animate={{ opacity: 1, scale: 1, transformOrigin: 'center' }}
 				transition={{ duration: 0.3, delay: 0.8 }}
-				className='w-full h-auto md:h-full md:w-auto aspect-square bg-radial-primary absolute -z-10 '
+				className='w-5/6 h-auto aspect-square bg-radial-primary absolute -z-10'
+				// className='w-full h-auto md:h-full md:w-auto aspect-square bg-radial-primary absolute -z-10 '
 			/>
 			<div className='text-wrap sm:text-nowrap text-xs px-3 py-2 border border-gray-2 rounded-full inline-flex items-center gap-2 text-gray-6 '>
 				<span className='w-2 h-2 relative flex'>

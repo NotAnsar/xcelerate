@@ -1,37 +1,41 @@
 'use client';
 
 import Link from 'next/link';
-import { motion } from 'framer-motion';
+import { motion, useMotionValueEvent, useScroll } from 'framer-motion';
 import { Icons } from './icons/socials';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { cn } from '@/lib/utils';
 
 export default function Header() {
 	const [open, setopen] = useState(false);
-	const defaultAnimations = {
-		hidden: {
-			opacity: 0,
-			translateY: '-2rem',
-		},
-		visible: {
-			opacity: 1,
-			translateY: '0rem',
-		},
-	};
+	const [hidden, setHidden] = useState(false);
+	const { scrollY } = useScroll();
+
+	useMotionValueEvent(scrollY, 'change', (current) => {
+		const prev = scrollY.getPrevious();
+		if (prev && current > prev && current > 200 && !open) setHidden(true);
+		else setHidden(false);
+	});
+
 	return (
 		<>
-			<header
+			<motion.header
 				className={cn(
-					'sticky top-0 z-50 bg-black/60 backdrop-blur-sm transition duration-200 ease-in-out animate-header-slide-down-fade border-transparent border-b',
-					open ? 'border-gray' : ''
+					'sticky top-0 z-50 bg-black/40 backdrop-blur-sm transition duration-200 ease-in-out animate-header-slide-down-fade border-transparent border-b ',
+					open ? 'border-gray ' : ''
 				)}
+				variants={{
+					visible: { y: 0 },
+					hidden: { y: '-100%' },
+				}}
+				animate={hidden ? 'hidden' : 'visible'}
+				transition={{ duration: 0.5, ease: 'easeInOut' }}
 			>
 				<motion.div
 					className='max-w-screen-main mx-auto px-7 py-4 flex items-center justify-between'
-					initial={'hidden'}
-					animate={'visible'}
+					initial={{ opacity: 0, translateY: '-2rem' }}
+					animate={{ opacity: 1, translateY: '0rem' }}
 					transition={{ duration: 0.8 }}
-					variants={defaultAnimations}
 				>
 					<div className='flex gap-2 cursor-pointer group justify-center items-center'>
 						<Icons.logo className='text-foreground w-[22px] h-auto group-hover:rotate-180 transition-all ease-in duration-300 ' />
@@ -80,7 +84,7 @@ export default function Header() {
 						</button>
 					</div>
 				</motion.div>
-			</header>
+			</motion.header>
 			<div
 				className={cn(
 					'bg-black/60 backdrop-blur-sm hidden md:hidden flex-col gap-3 p-7 pt-4 w-full fixed z-50',
