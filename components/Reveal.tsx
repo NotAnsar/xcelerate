@@ -24,7 +24,7 @@ export default function Reveal({
 	}, [inView, ctrl, slideCtrl]);
 
 	return (
-		<div className={cn('relative overflow-hidden w-fit', className)} ref={ref}>
+		<div className={cn('relative overflow-hidden w-full', className)} ref={ref}>
 			<motion.div
 				variants={{
 					hidden: { opacity: 0, y: 45 },

@@ -7,7 +7,7 @@ export default function Contact() {
 				id='contact'
 				className='max-w-screen-main mx-auto text-center mb-6 p-4 '
 			>
-				<Reveal className='w-full'>
+				<Reveal>
 					<h5 className='uppercase text-sm md:text-base font-bold text-primary'>
 						{"Let's connect."}
 					</h5>
