@@ -1,11 +1,8 @@
 import type { Metadata } from 'next';
-import { Inter, Artifika, Poppins } from 'next/font/google';
-import local from 'next/font/local';
+import { Artifika, Poppins } from 'next/font/google';
 import './globals.css';
 import { cn } from '@/lib/utils';
-import Reveal from '@/components/Reveal';
 
-// const myfont = Inter({ subsets: ['latin'] });
 const myfont = Poppins({
 	subsets: ['latin'],
 	weight: ['300', '400', '500', '600'],
