@@ -1,4 +1,5 @@
 import FAQ from './FAQ';
+import Reveal from './Reveal';
 
 export default function FAQS() {
 	return (
@@ -6,13 +7,17 @@ export default function FAQS() {
 			id='faq'
 			className='max-w-screen-main mx-auto mb-36 px-4 main:px-0'
 		>
-			<h1 className='text-4xl sm:text-5xl md:text-7xl font-medium mb-20'>
-				Frequently asked <br /> questions
-			</h1>
+			<Reveal>
+				<h1 className='text-4xl sm:text-5xl md:text-7xl font-medium mb-20'>
+					Frequently asked <br /> questions
+				</h1>
+			</Reveal>
 
 			<div className='flex flex-col gap-4'>
 				{faqs.map((f, i) => (
-					<FAQ {...f} key={i} />
+					<Reveal key={i}>
+						<FAQ {...f} key={i} />
+					</Reveal>
 				))}
 			</div>
 		</section>

@@ -1,5 +1,8 @@
-import React from 'react';
+'use client';
+
+import { HTMLAttributes } from 'react';
 import { Icons } from './icons/features';
+import Reveal from './Reveal';
 
 export default function Features() {
 	return (
@@ -7,22 +10,27 @@ export default function Features() {
 			id='features'
 			className='max-w-screen-main mx-auto text-center mb-36 p-4'
 		>
-			<h5 className='uppercase text-sm font-bold text-primary'>Features</h5>
-			<h2 className='mt-3 mb-6 text-5xl font-medium'>
-				Feature that we provide
-			</h2>
-			<p className='text-gray-5 w-4/5 mx-auto mb-20'>
-				Explore our innovative solutions crafted to meet your unique
-				requirements, incorporating cutting-edge technology for outstanding
-				performance and results.
-			</p>
+			<Reveal>
+				<h5 className='uppercase text-sm font-bold text-primary'>Features</h5>
+				<h2 className='mt-3 mb-6 text-5xl font-medium'>
+					Feature that we provide
+				</h2>
+				<p className='text-gray-5 w-4/5 mx-auto mb-20'>
+					Explore our innovative solutions crafted to meet your unique
+					requirements, incorporating cutting-edge technology for outstanding
+					performance and results.
+				</p>
+			</Reveal>
+
 			<div className='grid grid-cols-1 gap-x-12 gap-y-14 sm:grid-cols-2 md:grid-cols-3 text-left '>
 				{features.slice(0, 6).map((f) => (
-					<div key={f.title} className='space-y-3'>
-						<f.icon className='text-primary' />
-						<h3 className='font-medium text-foreground text-xl'>{f.title}</h3>
-						<p className='text-sm text-gray-6/95'>{f.description}</p>
-					</div>
+					<Reveal key={f.title}>
+						<div key={f.title} className='space-y-3'>
+							<f.icon className='text-primary' />
+							<h3 className='font-medium text-foreground text-xl'>{f.title}</h3>
+							<p className='text-sm text-gray-6/95'>{f.description}</p>
+						</div>
+					</Reveal>
 				))}
 			</div>
 		</section>

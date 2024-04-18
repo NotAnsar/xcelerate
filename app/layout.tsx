@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Inter, Artifika, Poppins } from 'next/font/google';
 import './globals.css';
 import { cn } from '@/lib/utils';
-import Cursor from '@/components/Cursor';
+import Reveal from '@/components/Reveal';
 
 // const inter = Inter({ subsets: ['latin'] });
 const inter = Poppins({
@@ -40,7 +40,6 @@ export default function RootLayout({
 					backgroundRepeat: 'repeat',
 				}}
 			>
-				{/* <Cursor /> */}
 				{children}
 			</body>
 		</html>
