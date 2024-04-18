@@ -27,7 +27,6 @@ export default function Reveal({
 		<div className={cn('relative overflow-hidden w-fit', className)} ref={ref}>
 			<motion.div
 				variants={{
-					// hidden: { opacity: 0, y: 75 },
 					hidden: { opacity: 0, y: 45 },
 					visible: { opacity: 1, y: 0 },
 				}}
