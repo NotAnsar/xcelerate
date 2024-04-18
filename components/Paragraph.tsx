@@ -7,7 +7,7 @@ export default function Paragraph({ value }: { value: string }) {
 	const el = useRef<HTMLParagraphElement>(null);
 	const { scrollYProgress } = useScroll({
 		target: el,
-		offset: ['start 0.9', 'start 0.25'],
+		offset: ['start end', 'start 0.1'],
 	});
 	const words = value.split(' ');
 
@@ -28,15 +28,6 @@ export default function Paragraph({ value }: { value: string }) {
 			})}
 		</p>
 	);
-	// return (
-	// 	<motion.p
-	// 		className='text-4xl text-gray-5 font-medium leading-relaxed p-10 font-logo'
-	// 		ref={el}
-	// 		style={{ opacity: scrollYProgress }}
-	// 	>
-	// 		{value}
-	// 	</motion.p>
-	// );
 }
 
 export function Word({

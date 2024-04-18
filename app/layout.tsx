@@ -27,22 +27,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en' className='scroll-smooth'>
-			<body
-				className={cn(
-					artifika.variable,
-
-					myfont.className,
-					'bg-background  '
-				)}
-				style={{
-					backgroundImage:
-						'url("https://assets-global.website-files.com/639997ad49dddb11d0c0efba/639a05a5c0944b02ab3529dd_grid.svg")',
-					// backgroundPosition: '0 0',
-					backgroundPosition: '',
-					backgroundSize: '200px',
-					backgroundRepeat: 'repeat',
-				}}
-			>
+			<body className={cn(artifika.variable, myfont.className, 'bg-square')}>
 				{children}
 			</body>
 		</html>

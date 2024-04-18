@@ -30,8 +30,8 @@ export default function Header() {
 			>
 				<motion.div
 					className='max-w-screen-main mx-auto px-7 py-4 flex items-center justify-between'
-					initial={{ opacity: 0, translateY: '-2rem' }}
-					animate={{ opacity: 1, translateY: '0rem' }}
+					initial={{ opacity: 0, y: '-100%' }}
+					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.5 }}
 				>
 					<div className='flex gap-2 cursor-pointer group justify-center items-center'>
@@ -84,7 +84,7 @@ export default function Header() {
 			</motion.header>
 			<div
 				className={cn(
-					'bg-black/60 backdrop-blur-sm hidden md:hidden flex-col gap-3 p-7 pt-4 w-full fixed z-50',
+					'bg-black/5 backdrop-blur-sm hidden md:hidden flex-col gap-3 p-7 pt-4 w-full fixed z-50 border-b border-gray',
 					open ? 'flex md:hidden' : ''
 				)}
 			>

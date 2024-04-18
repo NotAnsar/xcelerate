@@ -1,6 +1,3 @@
-'use client';
-
-import { HTMLAttributes } from 'react';
 import { Icons } from './icons/features';
 import Reveal from './Reveal';
 

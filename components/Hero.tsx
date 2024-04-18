@@ -6,12 +6,8 @@ export default function Hero() {
 	return (
 		<motion.main
 			className='max-w-screen-main mx-auto text-center lg:w-4/5 space-y-6 py-24 relative'
-			initial={{ opacity: 0, translateY: '3rem' }}
-			animate={{
-				opacity: 1,
-				translateY: '0rem',
-				transition: { duration: 0.5 },
-			}}
+			initial={{ opacity: 0, y: '3rem' }}
+			animate={{ opacity: 1, y: 0, transition: { duration: 0.5 } }}
 		>
 			<motion.div
 				initial={{

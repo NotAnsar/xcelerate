@@ -93,13 +93,18 @@ const config = {
 		fontFamily: {
 			logo: 'var(--logo)',
 		},
+		backgroundSize: {
+			square: '200px',
+		},
 		backgroundImage: {
 			radial:
 				'radial-gradient(circle, rgba(250,250,250,0.15) 15%, rgba(250,250,250,0) 70%)',
 
 			'radial-primary':
-				'radial-gradient(circle, rgba(78,23,130,0.3) 15%, rgba(78,23,130,0) 70%)',
+				'radial-gradient(circle, rgba(78,23,130,0.35) 15%, rgba(78,23,130,0) 70%)',
 			text: 'radial-gradient(circle, rgba(255,255,255,1) 15%, rgba(180,180,180,1) 70%)',
+			square:
+				'url("https://assets-global.website-files.com/639997ad49dddb11d0c0efba/639a05a5c0944b02ab3529dd_grid.svg")',
 		},
 	},
 	plugins: [require('tailwindcss-animate')],

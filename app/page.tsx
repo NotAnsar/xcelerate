@@ -9,7 +9,7 @@ import MarqueeSection from '@/components/MarqueeSection';
 import Mission from '@/components/Mission';
 import Pricing from '@/components/Pricing';
 
-export default function Home() {
+export default function page() {
 	return (
 		<>
 			<Header />
@@ -17,9 +17,7 @@ export default function Home() {
 			<MarqueeSection />
 			<Mission />
 			<Features />
-
 			<Pricing />
-			{/* <Quote /> */}
 			<FAQS />
 			<Contact />
 			<FooterMarquee />

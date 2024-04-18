@@ -1,5 +1,5 @@
 'use client';
-import { Suspense, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import IconsArray from './icons/marquee';
 import Marquee from 'react-fast-marquee';
 
