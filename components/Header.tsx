@@ -23,7 +23,7 @@ export default function Header() {
 			<motion.header
 				className={cn(
 					'sticky top-0 z-50 bg-transparent backdrop-blur-sm transition duration-200 ease-in-out animate-header-slide-down-fade border-transparent border-b hover:bg-black/5',
-					open ? 'border-gray ' : ''
+					open ? 'border-gray bg-black/5' : ''
 				)}
 				variants={{ visible: { y: 0 }, hidden: { y: '-100%' } }}
 				animate={hidden ? 'hidden' : 'visible'}
