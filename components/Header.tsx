@@ -13,6 +13,7 @@ export default function Header() {
 
 	useMotionValueEvent(scrollY, 'change', (current) => {
 		const prev = scrollY.getPrevious();
+
 		if (prev && current > prev && current > 200 && !open) setHidden(true);
 		else setHidden(false);
 	});
@@ -21,7 +22,7 @@ export default function Header() {
 		<>
 			<motion.header
 				className={cn(
-					'sticky top-0 z-50 bg-black/5 backdrop-blur-sm transition duration-200 ease-in-out animate-header-slide-down-fade border-transparent border-b ',
+					'sticky top-0 z-50 bg-transparent backdrop-blur-sm transition duration-200 ease-in-out animate-header-slide-down-fade border-transparent border-b hover:bg-black/5',
 					open ? 'border-gray ' : ''
 				)}
 				variants={{ visible: { y: 0 }, hidden: { y: '-100%' } }}

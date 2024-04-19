@@ -1,10 +1,11 @@
+import Button from './Button';
 import Reveal from './Reveal';
 
 export default function Contact() {
 	return (
 		<section
 			id='contact'
-			className='max-w-screen-main mx-auto text-center mb-6 p-4 '
+			className='max-w-screen-main mx-auto text-center mb-16 p-4 '
 		>
 			<Reveal>
 				<h5 className='uppercase text-sm md:text-base font-bold text-primary'>
@@ -14,8 +15,8 @@ export default function Contact() {
 					Your feedback matters.
 					<br /> {"Get in touch and let's collaborate."}
 				</h2>
-				<button className='px-8 py-3 bg-primary rounded-full border border-gray hover:bg-primary/75 transition-all ease-in duration-300'>
-					Get in touch
+				<button className='px-8 py-3 rounded-full relative radial-gradient border border-gray hover:bg-primary/75 transition-all ease-in duration-300 hover:scale-[97%]'>
+					Get Started
 				</button>
 			</Reveal>
 		</section>

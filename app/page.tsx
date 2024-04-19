@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 import FooterMarquee from '@/components/FooterMarquee';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
+import HeroGradient from '@/components/HeroGradient';
 import MarqueeSection from '@/components/MarqueeSection';
 import Mission from '@/components/Mission';
 import Pricing from '@/components/Pricing';
@@ -12,6 +13,7 @@ import Pricing from '@/components/Pricing';
 export default function page() {
 	return (
 		<>
+			<HeroGradient />
 			<Header />
 			<Hero />
 			<MarqueeSection />
