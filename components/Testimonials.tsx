@@ -11,7 +11,7 @@ export default function Testimonials() {
 	return (
 		<section
 			id='testimonials'
-			className='max-w-screen-2xl mx-auto text-center my-36 py-14 px-16'
+			className='max-w-screen-2xl mx-auto text-center my-36 px-2 py-14 md:px-16'
 		>
 			<Reveal>
 				<h2 className='mt-3 mb-20 text-4xl font-medium text-center'>
