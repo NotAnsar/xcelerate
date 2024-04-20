@@ -9,13 +9,10 @@ export default function Hero() {
 			initial={{ opacity: 0, y: '3rem' }}
 			animate={{ opacity: 1, y: 0, transition: { duration: 0.5 } }}
 		>
-			
 			<motion.a
-				className='text-wrap sm:text-nowrap text-xs px-3 py-2 rounded-full inline-flex items-center gap-2 text-gray-6  relative'
-				// initial={{ '--x': '100%', scale: 1 }}
-				// animate={{ '--x': '-100%' }}
-				initial={{ scale: 1 }}
-				animate={{}}
+				className='text-wrap sm:text-nowrap text-xs px-3 py-2 rounded-full inline-flex items-center gap-2 text-gray-6 relative'
+				initial={{ '--x': '100%', scale: 1 } as any}
+				animate={{ '--x': '-100%' } as any}
 				whileTap={{ scale: 0.97 }}
 				transition={{
 					repeat: Infinity,
@@ -33,9 +30,10 @@ export default function Hero() {
 					<span className='relative inline-flex rounded-full w-2 h-2 bg-primary ' />
 				</span>
 				<span className='block absolute inset-0 rounded-full p-px linear-overlay bg-gray' />
-				{/* <p>This website is a showcase of my skills</p> */}
+
 				<p>This website is crafted by Ansar Karrouach</p>
 			</motion.a>
+
 			<h1 className='text-[40px] leading-snug sm:text-6xl sm:leading-snug lg:text-7xl lg:leading-tight font-bold w-11/12 sm:w-4/5 mx-auto text-transparent bg-text bg-clip-text'>
 				Elevate Your Digital Presence with Xcelerate
 			</h1>
@@ -44,11 +42,9 @@ export default function Hero() {
 				ensures exceptional results, setting a new benchmark for digital
 				excellence
 			</p>
-
 			<button className='px-8 py-3 rounded-full relative radial-gradient border border-gray hover:bg-primary/75 transition-all ease-in duration-300 hover:scale-[97%]'>
 				Get Started
 			</button>
-
 			<div className='flex items-center justify-center gap-3'>
 				<div className='inline-flex '>
 					<span className='w-6 h-6 rounded-full bg-gray inline-block translate-x-4 bg-blue-500'></span>
