@@ -1,14 +1,11 @@
 'use client';
-import { useEffect, useState } from 'react';
+
 import IconsArray from './icons/marquee';
 import Marquee from 'react-fast-marquee';
+import useIsMobile from '@/hooks/useIsMobile';
 
 export default function MarqueeSection() {
-	const [isMobile, setIsMobile] = useState(false);
-
-	useEffect(() => {
-		setIsMobile(window.innerWidth <= 640);
-	}, []);
+	const isMobile = useIsMobile();
 
 	return (
 		<section className='max-w-screen-main mx-auto mt-20 '>

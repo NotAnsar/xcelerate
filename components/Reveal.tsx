@@ -9,9 +9,7 @@ export default function Reveal({ children }: { children: React.ReactNode }) {
 	const ctrl = useAnimation();
 
 	useEffect(() => {
-		if (inView) {
-			ctrl.start('visible');
-		}
+		if (inView) ctrl.start('visible');
 	}, [inView, ctrl]);
 
 	return (

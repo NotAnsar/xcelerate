@@ -27,13 +27,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang='en' className='scroll-smooth'>
-			<body
-				className={cn(
-					artifika.variable,
-					myfont.className,
-					'bg-square relative'
-				)}
-			>
+			<body className={cn(artifika.variable, myfont.className, )}>
 				{children}
 			</body>
 		</html>

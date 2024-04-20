@@ -9,6 +9,7 @@ import HeroGradient from '@/components/HeroGradient';
 import MarqueeSection from '@/components/MarqueeSection';
 import Mission from '@/components/Mission';
 import Pricing from '@/components/Pricing';
+import Testimonials from '@/components/Testimonials';
 
 export default function page() {
 	return (
@@ -19,6 +20,7 @@ export default function page() {
 			<MarqueeSection />
 			<Mission />
 			<Features />
+			<Testimonials />
 			<Pricing />
 			<FAQS />
 			<Contact />

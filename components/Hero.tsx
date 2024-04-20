@@ -9,22 +9,13 @@ export default function Hero() {
 			initial={{ opacity: 0, y: '3rem' }}
 			animate={{ opacity: 1, y: 0, transition: { duration: 0.5 } }}
 		>
-			{/* <motion.div
-				initial={{
-					opacity: 1,
-					scale: 0,
-					translate: '-50% -50%',
-					top: '50%',
-					left: '50%',
-				}}
-				animate={{ opacity: 1, scale: 1, transformOrigin: 'center' }}
-				transition={{ duration: 0.3, delay: 0.5 }}
-				className='w-5/6 h-auto aspect-square bg-radial-primary absolute -z-10'
-			/> */}
-			<motion.div
+			
+			<motion.a
 				className='text-wrap sm:text-nowrap text-xs px-3 py-2 rounded-full inline-flex items-center gap-2 text-gray-6  relative'
-				initial={{ '--x': '100%', scale: 1 }}
-				animate={{ '--x': '-100%' }}
+				// initial={{ '--x': '100%', scale: 1 }}
+				// animate={{ '--x': '-100%' }}
+				initial={{ scale: 1 }}
+				animate={{}}
 				whileTap={{ scale: 0.97 }}
 				transition={{
 					repeat: Infinity,
@@ -42,8 +33,9 @@ export default function Hero() {
 					<span className='relative inline-flex rounded-full w-2 h-2 bg-primary ' />
 				</span>
 				<span className='block absolute inset-0 rounded-full p-px linear-overlay bg-gray' />
-				<p>This website is a showcase of my skills</p>
-			</motion.div>
+				{/* <p>This website is a showcase of my skills</p> */}
+				<p>This website is crafted by Ansar Karrouach</p>
+			</motion.a>
 			<h1 className='text-[40px] leading-snug sm:text-6xl sm:leading-snug lg:text-7xl lg:leading-tight font-bold w-11/12 sm:w-4/5 mx-auto text-transparent bg-text bg-clip-text'>
 				Elevate Your Digital Presence with Xcelerate
 			</h1>
