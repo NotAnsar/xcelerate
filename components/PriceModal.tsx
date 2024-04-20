@@ -19,7 +19,7 @@ export default function PriceModal({
 	return (
 		<motion.div
 			key={p.title}
-			className='p-8 bg-black/80 rounded-2xl backdrop-blur-md relative overflow-hidden border border-primary/75'
+			className='p-8 bg-background/80 rounded-2xl backdrop-blur-md relative overflow-hidden border border-primary/75'
 			onMouseMove={(event) => {
 				const modalRect = event.currentTarget.getBoundingClientRect();
 

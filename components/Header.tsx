@@ -22,8 +22,8 @@ export default function Header() {
 		<>
 			<motion.header
 				className={cn(
-					'sticky top-0 z-50 bg-transparent  transition duration-300 ease-in-out animate-header-slide-down-fade border-transparent border-b hover:bg-black/5 hover:backdrop-blur-sm',
-					open ? 'border-gray bg-black/5 backdrop-blur-sm' : ''
+					'sticky top-0 z-50 bg-transparent  transition duration-300 ease-in-out animate-header-slide-down-fade border-transparent border-b hover:bg-background/5 hover:backdrop-blur-sm',
+					open ? 'border-gray bg-background/5 backdrop-blur-sm' : ''
 				)}
 				variants={{ visible: { y: 0 }, hidden: { y: '-100%' } }}
 				animate={hidden ? 'hidden' : 'visible'}
@@ -85,7 +85,7 @@ export default function Header() {
 			</motion.header>
 			<div
 				className={cn(
-					'bg-black/5 backdrop-blur-sm hidden md:hidden flex-col gap-3 p-7 pt-4 w-full fixed z-50 border-b border-gray',
+					'bg-background/5 backdrop-blur-sm hidden md:hidden flex-col gap-3 p-7 pt-4 w-full fixed z-50 border-b border-gray',
 					open ? 'flex md:hidden' : ''
 				)}
 			>

@@ -29,7 +29,7 @@ export default function Testimonials() {
 					{testimonials.map((t, i) => (
 						<aside
 							key={t.name}
-							className='p-6 flex flex-col gap-7 bg-black/40 backdrop-blur-sm border border-gray rounded-2xl basis-auto ml-8 h-full w-[400px] md:w-[450px] '
+							className='p-6 flex flex-col gap-7 bg-background/40 backdrop-blur-sm border border-gray rounded-2xl basis-auto ml-8 h-full w-[400px] md:w-[450px] '
 							style={{
 								background:
 									// 'linear-gradient(180deg, rgba(78,23,130, 0.15) 0%, rgba(5, 5, 5, 0) 70%',
