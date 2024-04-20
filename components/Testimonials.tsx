@@ -32,7 +32,8 @@ export default function Testimonials() {
 							className='p-6 flex flex-col gap-7 bg-black/40 backdrop-blur-sm border border-gray rounded-2xl basis-auto ml-8 h-full w-[400px] md:w-[450px] '
 							style={{
 								background:
-									'linear-gradient(180deg, rgba(78,23,130, 0.15) 0%, rgba(5, 5, 5, 0) 70%',
+									// 'linear-gradient(180deg, rgba(78,23,130, 0.15) 0%, rgba(5, 5, 5, 0) 70%',
+									'linear-gradient(180deg, hsl(var(--primary) / 0.15) 0%, hsl(var(--primary) / 0) 70%',
 							}}
 						>
 							<svg
@@ -81,7 +82,7 @@ const testimonials = [
 		message:
 			'Working with Xcelerate has been a game-changer for our business. Their innovative solutions and dedicated support have helped us achieve new heights.',
 		picture:
-			'https://images.unsplash.com/11/berries.jpg?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+			'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 	},
 	{
 		name: 'John Smith',
@@ -90,7 +91,7 @@ const testimonials = [
 		message:
 			"Xcelerate's expertise in technology and digital strategies has significantly boosted our online presence. Highly recommend their services!",
 		picture:
-			'https://images.unsplash.com/11/berries.jpg?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+			'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 	},
 	{
 		name: 'Emily Brown',
@@ -99,7 +100,7 @@ const testimonials = [
 		message:
 			"I've collaborated with Xcelerate on multiple projects, and each time, they've delivered exceptional results. Their attention to detail and creativity are unmatched.",
 		picture:
-			'https://images.unsplash.com/11/berries.jpg?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+			'https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?q=80&w=1727&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 	},
 	{
 		name: 'Michael Davis',
@@ -108,7 +109,7 @@ const testimonials = [
 		message:
 			"Xcelerate's approach to software development is top-notch. Their team is highly skilled, and they deliver quality solutions on time.",
 		picture:
-			'https://images.unsplash.com/11/berries.jpg?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+			'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 	},
 	{
 		name: 'Anna Martinez',
@@ -117,6 +118,6 @@ const testimonials = [
 		message:
 			'Working with Xcelerate has been a pleasure. They understand our business needs and provide tailored solutions that drive results.',
 		picture:
-			'https://images.unsplash.com/11/berries.jpg?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+			'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
 	},
 ];

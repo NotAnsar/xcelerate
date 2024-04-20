@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function Hero() {
 	return (
@@ -42,14 +43,38 @@ export default function Hero() {
 				ensures exceptional results, setting a new benchmark for digital
 				excellence
 			</p>
-			<button className='px-8 py-3 rounded-full relative radial-gradient border border-gray hover:bg-primary/75 transition-all ease-in duration-300 hover:scale-[97%]'>
+			<button className='px-8 py-3 rounded-full relative radial-gradient border border-gray bg-primary hover:bg-primary/75 transition-all ease-in duration-300 hover:scale-[97%]'>
 				Get Started
 			</button>
 			<div className='flex items-center justify-center gap-3'>
 				<div className='inline-flex '>
-					<span className='w-6 h-6 rounded-full bg-gray inline-block translate-x-4 bg-blue-500'></span>
-					<span className='w-6 h-6 rounded-full bg-gray inline-block translate-x-2 bg-red-500'></span>
-					<span className='w-6 h-6 rounded-full bg-gray inline-block bg-green-500'></span>
+					<Image
+						className='w-6 h-6 rounded-full bg-gray inline-block translate-x-4 object-cover shadow-md shadow-primary/20'
+						alt=''
+						src={
+							'https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?q=80&w=1727&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+						}
+						width={240}
+						height={240}
+					/>
+					<Image
+						className='w-6 h-6 rounded-full bg-gray inline-block translate-x-2 object-cover shadow-md shadow-primary/20'
+						width={240}
+						height={240}
+						alt=''
+						src={
+							'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+						}
+					/>
+					<Image
+						className='w-6 h-6 rounded-full bg-gray inline-block object-cover shadow-md shadow-primary/20'
+						width={240}
+						height={240}
+						alt=''
+						src={
+							'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+						}
+					/>
 				</div>
 				<p className='text-gray-5 text-sm inline'>Trusted by 500+ clients</p>
 			</div>

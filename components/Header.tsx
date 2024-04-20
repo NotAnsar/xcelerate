@@ -22,8 +22,8 @@ export default function Header() {
 		<>
 			<motion.header
 				className={cn(
-					'sticky top-0 z-50 bg-transparent backdrop-blur-sm transition duration-200 ease-in-out animate-header-slide-down-fade border-transparent border-b hover:bg-black/5',
-					open ? 'border-gray bg-black/5' : ''
+					'sticky top-0 z-50 bg-transparent  transition duration-300 ease-in-out animate-header-slide-down-fade border-transparent border-b hover:bg-black/5 hover:backdrop-blur-sm',
+					open ? 'border-gray bg-black/5 backdrop-blur-sm' : ''
 				)}
 				variants={{ visible: { y: 0 }, hidden: { y: '-100%' } }}
 				animate={hidden ? 'hidden' : 'visible'}
@@ -49,7 +49,7 @@ export default function Header() {
 								{n.title}
 							</Link>
 						))}
-						<button className='px-5 py-2 bg-gray border border-primary rounded-full hover:border-primary-foreground'>
+						<button className='px-5 py-2 bg-gray border border-primary/70 rounded-full hover:border-primary'>
 							Get Started
 						</button>
 					</nav>

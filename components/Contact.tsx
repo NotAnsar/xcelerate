@@ -2,7 +2,6 @@ import Reveal from './Reveal';
 
 export default function Contact() {
 	return (
-		// <div className='bg-gray-2 py-24 w-full mb-20'>
 		<section
 			id='contact'
 			className='max-w-screen-main mx-auto text-center mb-16 p-4 '
@@ -15,18 +14,11 @@ export default function Contact() {
 					Your feedback matters.
 					<br /> {"Get in touch and let's collaborate."}
 				</h2>
-				{/* <h2 className='mt-3 p-4 text-[28px] sm:text-[34px] md:text-[44px] leading-tight mx-auto font-medium md:w-4/5'>
-					Your feedback matters.
-				</h2>
-				<p className='text-gray-5 w-4/5 mx-auto mb-6'>
-					{"Get in touch and let's collaborate."}
-				</p> */}
 
-				<button className='px-8 py-3 rounded-full relative radial-gradient border border-gray hover:bg-primary/75 transition-all ease-in duration-300 hover:scale-[97%]'>
+				<button className='px-8 py-3 bg-primary rounded-full relative radial-gradient border border-gray hover:bg-primary/75 transition-all ease-in duration-300 hover:scale-[97%]'>
 					Get Started
 				</button>
 			</Reveal>
 		</section>
-		// </div>
 	);
 }

@@ -19,7 +19,7 @@ export default function PriceModal({
 	return (
 		<motion.div
 			key={p.title}
-			className='p-8 bg-black/80 rounded-2xl backdrop-blur-md relative overflow-hidden border border-purple-950/75'
+			className='p-8 bg-black/80 rounded-2xl backdrop-blur-md relative overflow-hidden border border-primary/75'
 			onMouseMove={(event) => {
 				const modalRect = event.currentTarget.getBoundingClientRect();
 
@@ -34,7 +34,7 @@ export default function PriceModal({
 		>
 			<div
 				style={{
-					background: `linear-gradient(180deg, rgba(5,5,5, 0.1) 0%, rgba(5, 5, 5, 0) 70%),radial-gradient(circle at ${modalPosition.x}% ${modalPosition.y}%,rgba(78,23,130, 0.17) 50%,rgba(78,23,130, 0.05) 100%) `,
+					background: `linear-gradient(180deg, rgba(5,5,5, 0.1) 0%, rgba(5, 5, 5, 0) 70%),radial-gradient(circle at ${modalPosition.x}% ${modalPosition.y}%,hsla(var(--primary) / 0.17) 50%,hsla(0 0% 5% / 0.05) 100%) `,
 				}}
 				className='blur-md absolute inset-0 pointer-events-none '
 			/>

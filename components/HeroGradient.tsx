@@ -17,7 +17,8 @@ export default function HeroGradient() {
 				transition={{ duration: 0.3, delay: 0.6 }}
 				style={{
 					background:
-						'radial-gradient(circle, rgba(78,23,130, 0.25) 0%, rgba(144, 172, 255, 0) 70%, rgba(144, 172, 255, 0) 100%)',
+						// 'radial-gradient(circle, rgba(78,23,130, 0.25) 0%, rgba(144, 172, 255, 0) 70%, rgba(144, 172, 255, 0) 100%)',
+						'radial-gradient(circle, hsla(var(--primary) / 0.2) 0%, rgba(144, 172, 255, 0) 70%, rgba(144, 172, 255, 0) 100%)',
 				}}
 			/>
 		</div>
