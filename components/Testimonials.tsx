@@ -15,7 +15,8 @@ export default function Testimonials() {
 		>
 			<Reveal>
 				<h2 className='mt-3 mb-20 text-4xl font-medium text-center'>
-					Creators love us! Hear what they have to say.
+					Creators <span className='text-primary font-semibold'>love us!</span>{' '}
+					Hear what they have to say.
 				</h2>
 			</Reveal>
 

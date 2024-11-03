@@ -25,7 +25,7 @@ export default function Hero() {
 					mass: 2,
 					scale: { type: 'spring', stiffness: 10, damping: 5, mass: 0.1 },
 				}}
-				href='https://ansar-portfolio.vercel.app/'
+				href='https://ansar.vercel.app/'
 				target='_blank'
 			>
 				<span className='w-2 h-2 relative flex'>

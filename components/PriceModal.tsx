@@ -19,27 +19,27 @@ export default function PriceModal({
 	return (
 		<motion.div
 			key={p.title}
-			className='p-8 bg-background/80 rounded-2xl backdrop-blur-md relative overflow-hidden border border-primary/75'
-			onMouseMove={(event) => {
-				const modalRect = event.currentTarget.getBoundingClientRect();
+			className='p-8 bg-background/80 rounded-2xl backdrop-blur-md relative overflow-hidden border border-primary/50 priceModal'
+			// onMouseMove={(event) => {
+			// 	const modalRect = event.currentTarget.getBoundingClientRect();
 
-				const x = event.clientX - modalRect.left;
-				const y = event.clientY - modalRect.top;
+			// 	const x = event.clientX - modalRect.left;
+			// 	const y = event.clientY - modalRect.top;
 
-				const percX = (x * 100) / modalRect.width;
-				const percY = (y * 100) / modalRect.height;
+			// 	const percX = (x * 100) / modalRect.width;
+			// 	const percY = (y * 100) / modalRect.height;
 
-				setModalPosition({ x: percX, y: percY });
-			}}
+			// 	setModalPosition({ x: percX, y: percY });
+			// }}
 		>
-			<div
+			{/* <div
 				style={{
 					background: `linear-gradient(180deg, rgba(5,5,5, 0.1) 0%, rgba(5, 5, 5, 0) 70%),radial-gradient(circle at ${modalPosition.x}% ${modalPosition.y}%,hsla(var(--primary) / 0.17) 50%,hsla(0 0% 5% / 0.05) 100%) `,
 				}}
-				className='blur-md absolute inset-0 pointer-events-none '
-			/>
+				className='blur-md absolute inset-0 pointer-events-none w-full h-full'
+			/> */}
 
-			<h3 className='text-[15px] font-semibold '>{p.title}</h3>
+			<h3 className='text-[15px] font-semibold z-10'>{p.title}</h3>
 			<p className='text-[13px] text-gray-5 mt-3'>
 				Perfect for startups and small businesses looking to establish an online
 				presence.
